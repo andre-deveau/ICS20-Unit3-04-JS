@@ -26,6 +26,6 @@ function enterClicked() {
   const celsius = ((fahrenheit - 32) * 5) / 9
 
   //output
-  document.getElementById("volume-of-right-rectangular-pyramid").innerHTML =
+  document.getElementById("fahrenheit-converted-to-celsius").innerHTML =
     "This the the temperature in celsius: " + celsius.toFixed(2) + "cm³"
 }
