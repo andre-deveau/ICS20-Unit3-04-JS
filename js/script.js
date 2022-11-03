@@ -27,5 +27,5 @@ function enterClicked() {
 
   //output
   document.getElementById("fahrenheit-converted-to-celsius").innerHTML =
-    "This the the temperature in celsius: " + celsius.toFixed(2) + "cm³"
+    "This is the temperature in celsius: " + celsius.toFixed(2) + "C°"
 }
